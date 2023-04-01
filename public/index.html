@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <title>Toggle Switch</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/toggle.css">
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -27,6 +30,14 @@
     <title>React App</title>
   </head>
   <body>
+    <div class="side-panel">
+      <div class="toggle-container">
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-label"></label>
+        <div class="toggle-circle"></div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

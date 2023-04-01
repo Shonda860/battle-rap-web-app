@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --vh: calc(var(--vh, 1vh) * 100);
+}
+
+@media (max-width: 767px) {
+  :root {
+    --vh: calc(var(--vh, 1vh) * 100);
+  }
+}
