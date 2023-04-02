@@ -3,9 +3,9 @@ import { MenuItem, MenuList } from '@mui/material';
 function Menu() {
   return (
     <MenuList>
-      <MenuItem>Menu Item 1</MenuItem>
-      <MenuItem>Menu Item 2</MenuItem>
-      <MenuItem>Menu Item 3</MenuItem>
+      <MenuItem>Discover</MenuItem>
+      <MenuItem>Forum</MenuItem>
+      <MenuItem>Battle News</MenuItem>
     </MenuList>
   );
 }

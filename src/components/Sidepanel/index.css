@@ -1,0 +1,20 @@
+.side-panel {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  width: 14%;
+  background-color: #1e1e1e;
+}
+
+  
+  .side-panel__toggle {
+    position: absolute;
+    bottom: 16px;
+    left: 2px;
+  }
+  
+  .side-panel__toggle--dark {
+    left: 32px;
+  }
+  
